@@ -1,28 +1,28 @@
 class Flowlyt < Formula
   desc "Multi-Platform CI/CD Security Analyzer"
   homepage "https://github.com/harekrishnarai/flowlyt"
-  version "2.0.0"
+  version "2.0.1"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/harekrishnarai/flowlyt/releases/download/v2.0.0/flowlyt-darwin-arm64"
-      sha256 "d07412f205be14f5c0b4f75640fbe9b466f6d9366c79460dc65602aa0fa56361"
+      url "https://github.com/harekrishnarai/flowlyt/releases/download/v2.0.1/flowlyt-darwin-arm64"
+      sha256 "11746031ba6854688ea48fe07d65d3a8a29c78ca53a40eb43625e0e357a72bf5"
     end
     on_intel do
-      url "https://github.com/harekrishnarai/flowlyt/releases/download/v2.0.0/flowlyt-darwin-amd64"
-      sha256 "d2a1de1b23d3c90c1aa0458a274eee00137221bae479dec7eb9e62228b0d2756"
+      url "https://github.com/harekrishnarai/flowlyt/releases/download/v2.0.1/flowlyt-darwin-amd64"
+      sha256 "6e1edc04a5c4046d9d8f2db8e367cf97fc6360078d63197a224728707b2d7299"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/harekrishnarai/flowlyt/releases/download/v2.0.0/flowlyt-linux-arm64"
-      sha256 "3bdf7c7b5684e1b8aac2a475c13ec5bdba9d327df25dab26f271ac8c1ee605dd"
+      url "https://github.com/harekrishnarai/flowlyt/releases/download/v2.0.1/flowlyt-linux-arm64"
+      sha256 "ddc26cb9cac43e492132b4ca81d5d983cdb038555aab657b92f85a24a93d6765"
     end
     on_intel do
-      url "https://github.com/harekrishnarai/flowlyt/releases/download/v2.0.0/flowlyt-linux-amd64"
-      sha256 "e086a01e58c669ca811d23498d41c5f4654d86645c8233fab54f0a984ea6bfcb"
+      url "https://github.com/harekrishnarai/flowlyt/releases/download/v2.0.1/flowlyt-linux-amd64"
+      sha256 "61f4cafe777f74d24586c26357b19ff4e81a03e23aa02cf8167dae32c938e791"
     end
   end
 
